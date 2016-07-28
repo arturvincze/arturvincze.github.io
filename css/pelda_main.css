@@ -1,0 +1,36 @@
+/* egy tag univerzális formázása */
+body {
+    background-color: darkseagreen;
+}
+
+img {
+    width: 100%;   
+}
+
+/*
+ .-al kezdve csinálhatsz saját formázási szabályt,
+ és utána azt a html fájlban használhatod úgy hogy a 
+ tag-be class="table_label" pl.: <h1 class="table_label">
+*/
+
+.table_label {
+/*    szöveg elrendezése: left - balra, right - jobbra, center - középre*/
+    text-align: center;
+/* háttérszin */
+    background-color: azure;
+    
+}
+
+.pista_bacsi {
+    
+    text-align: right;
+    background-color: aqua;
+    /* szöveg színe */
+    color: blueviolet;
+    /* szöveg mérete px = pixel/pont*/
+    font-size: 38px;
+}
+
+.julika_neni {
+    width: 300px;
+}
